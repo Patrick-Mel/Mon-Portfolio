@@ -35,69 +35,95 @@ alter table public.activity_log enable row level security;
 alter table public.rate_limits enable row level security;
 
 -- ---------- admins : un admin peut voir la liste, personne ne la modifie via l'API ----------
+drop policy if exists admins_read on public.admins;
 create policy admins_read on public.admins for select to authenticated using (public.is_admin());
 
 -- ---------- Contenu toujours public ----------
+drop policy if exists site_settings_read on public.site_settings;
 create policy site_settings_read on public.site_settings for select to anon, authenticated using (true);
+drop policy if exists site_settings_admin on public.site_settings;
 create policy site_settings_admin on public.site_settings for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
+drop policy if exists key_figures_read on public.key_figures;
 create policy key_figures_read on public.key_figures for select to anon, authenticated using (true);
+drop policy if exists key_figures_admin on public.key_figures;
 create policy key_figures_admin on public.key_figures for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
+drop policy if exists skills_read on public.skills;
 create policy skills_read on public.skills for select to anon, authenticated using (true);
+drop policy if exists skills_admin on public.skills;
 create policy skills_admin on public.skills for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
+drop policy if exists timeline_read on public.timeline_entries;
 create policy timeline_read on public.timeline_entries for select to anon, authenticated using (true);
+drop policy if exists timeline_admin on public.timeline_entries;
 create policy timeline_admin on public.timeline_entries for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
+drop policy if exists post_categories_read on public.post_categories;
 create policy post_categories_read on public.post_categories for select to anon, authenticated using (true);
+drop policy if exists post_categories_admin on public.post_categories;
 create policy post_categories_admin on public.post_categories for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
+drop policy if exists tags_read on public.tags;
 create policy tags_read on public.tags for select to anon, authenticated using (true);
+drop policy if exists tags_admin on public.tags;
 create policy tags_admin on public.tags for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
+drop policy if exists legal_pages_read on public.legal_pages;
 create policy legal_pages_read on public.legal_pages for select to anon, authenticated using (true);
+drop policy if exists legal_pages_admin on public.legal_pages;
 create policy legal_pages_admin on public.legal_pages for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
+drop policy if exists media_read on public.media;
 create policy media_read on public.media for select to anon, authenticated using (bucket = 'media');
+drop policy if exists media_admin on public.media;
 create policy media_admin on public.media for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
 -- ---------- Contenu publié uniquement ----------
+drop policy if exists services_read on public.services;
 create policy services_read on public.services for select to anon, authenticated
   using (published or public.is_admin());
+drop policy if exists services_admin on public.services;
 create policy services_admin on public.services for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
+drop policy if exists projects_read on public.projects;
 create policy projects_read on public.projects for select to anon, authenticated
   using (status = 'published' or public.is_admin());
+drop policy if exists projects_admin on public.projects;
 create policy projects_admin on public.projects for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
+drop policy if exists project_images_read on public.project_images;
 create policy project_images_read on public.project_images for select to anon, authenticated
   using (
     public.is_admin()
     or exists (select 1 from public.projects p where p.id = project_id and p.status = 'published')
   );
+drop policy if exists project_images_admin on public.project_images;
 create policy project_images_admin on public.project_images for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
 -- Un article « planifié » devient visible dès que sa date de publication est passée.
+drop policy if exists posts_read on public.posts;
 create policy posts_read on public.posts for select to anon, authenticated
   using (
     public.is_admin()
     or (status in ('published', 'scheduled') and published_at <= now())
   );
+drop policy if exists posts_admin on public.posts;
 create policy posts_admin on public.posts for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
+drop policy if exists post_tags_read on public.post_tags;
 create policy post_tags_read on public.post_tags for select to anon, authenticated
   using (
     public.is_admin()
@@ -106,13 +132,16 @@ create policy post_tags_read on public.post_tags for select to anon, authenticat
       where p.id = post_id and p.status in ('published', 'scheduled') and p.published_at <= now()
     )
   );
+drop policy if exists post_tags_admin on public.post_tags;
 create policy post_tags_admin on public.post_tags for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
 -- ---------- Commentaires : seuls les approuvés sont publics, sans l'e-mail ----------
 revoke select on public.comments from anon;
 grant select (id, post_id, author_name, content, status, created_at) on public.comments to anon;
+drop policy if exists comments_public_read on public.comments;
 create policy comments_public_read on public.comments for select to anon using (status = 'approved');
+drop policy if exists comments_admin on public.comments;
 create policy comments_admin on public.comments for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
 
@@ -120,20 +149,28 @@ create policy comments_admin on public.comments for all to authenticated
 revoke all on public.contact_messages, public.quote_requests, public.subscribers, public.campaigns,
   public.page_views, public.activity_log, public.rate_limits, public.admins from anon;
 
+drop policy if exists contact_messages_admin on public.contact_messages;
 create policy contact_messages_admin on public.contact_messages for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
+drop policy if exists quote_requests_admin on public.quote_requests;
 create policy quote_requests_admin on public.quote_requests for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
+drop policy if exists subscribers_admin on public.subscribers;
 create policy subscribers_admin on public.subscribers for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
+drop policy if exists campaigns_admin on public.campaigns;
 create policy campaigns_admin on public.campaigns for all to authenticated
   using (public.is_admin()) with check (public.is_admin());
+drop policy if exists page_views_admin_read on public.page_views;
 create policy page_views_admin_read on public.page_views for select to authenticated
   using (public.is_admin());
+drop policy if exists page_views_admin_delete on public.page_views;
 create policy page_views_admin_delete on public.page_views for delete to authenticated
   using (public.is_admin());
+drop policy if exists activity_log_admin_read on public.activity_log;
 create policy activity_log_admin_read on public.activity_log for select to authenticated
   using (public.is_admin());
+drop policy if exists activity_log_admin_insert on public.activity_log;
 create policy activity_log_admin_insert on public.activity_log for insert to authenticated
   with check (public.is_admin() and actor_id = (select auth.uid()));
 -- rate_limits : aucune politique → accessible uniquement via la fonction security definer.
