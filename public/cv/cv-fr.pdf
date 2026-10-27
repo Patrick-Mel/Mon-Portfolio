@@ -1,0 +1,98 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 5308 >>
+stream
+1 0.353 0.122 rg 0 822 595 20 re f
+BT 0.08 0.04 0.02 rg /F2 9 Tf 40 829 Td (CV D'EXEMPLE - à remplacer depuis /admin > Paramètres) Tj ET
+BT 0.07 0.07 0.06 rg /F2 24 Tf 40 780 Td (Patrick Melaga) Tj ET
+BT 0.31 0.30 0.28 rg /F1 10.5 Tf 40 758 Td (Administrateur Réseaux & Systèmes - Développeur Full-Stack - Designer) Tj ET
+BT 0.42 0.41 0.38 rg /F1 9.5 Tf 40 744 Td (contact@example.com  -  +237 600 000 000  -  Yaoundé, Cameroun) Tj ET
+1 0.353 0.122 RG 1.5 w 40 728 m 555 728 l S
+BT 0.70 0.25 0.06 rg /F2 10 Tf 40 710 Td (FORMATION) Tj ET
+BT 0.42 0.41 0.38 rg /F1 9 Tf 40 694 Td (2025-10 - 2026-07) Tj ET
+BT 0.07 0.07 0.06 rg /F2 10.5 Tf 150 694 Td (Diplôme d'ingénieur des travaux informatiques - option Systèmes et) Tj ET
+BT 0.07 0.07 0.06 rg /F2 10.5 Tf 150 681 Td (Réseaux) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9.5 Tf 150 668 Td (IAI Cameroun, Yaoundé) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 655 Td (Troisième année : architecture réseau d'entreprise, sécurité des systèmes,) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 643 Td (virtualisation, supervision et projet de fin d'études. Obtenu en parallèle de la) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 631 Td (licence professionnelle.) Tj ET
+BT 0.42 0.41 0.38 rg /F1 9 Tf 40 613 Td (2025-10 - 2026-07) Tj ET
+BT 0.07 0.07 0.06 rg /F2 10.5 Tf 150 613 Td (Licence professionnelle en Systèmes et Réseaux) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9.5 Tf 150 600 Td (IAI Cameroun, Yaoundé) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 587 Td (Routage et commutation avancés, VPN, services réseau Linux et Windows, administration) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 575 Td (et sécurisation d'infrastructures.) Tj ET
+BT 0.42 0.41 0.38 rg /F1 9 Tf 40 557 Td (2023-10 - 2025-07) Tj ET
+BT 0.07 0.07 0.06 rg /F2 10.5 Tf 150 557 Td (DTS - Diplôme de Technicien Supérieur en informatique) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9.5 Tf 150 544 Td (IAI Cameroun, Yaoundé) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 531 Td (Deux années de fondamentaux : algorithmique, programmation, bases de données,) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 519 Td (réseaux, systèmes d'exploitation et génie logiciel.) Tj ET
+BT 0.70 0.25 0.06 rg /F2 10 Tf 40 493 Td (EXPÉRIENCE) Tj ET
+BT 0.42 0.41 0.38 rg /F1 9 Tf 40 477 Td (2025-07 - 2025-09) Tj ET
+BT 0.07 0.07 0.06 rg /F2 10.5 Tf 150 477 Td (Stage académique - administration réseau \(exemple à compléter\)) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9.5 Tf 150 464 Td (Structure d'accueil à renseigner, Cameroun) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 451 Td (Remplacez cette entrée par vos stages réels depuis /admin  Parcours : missions,) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 439 Td (outils utilisés, résultats observés.) Tj ET
+BT 0.70 0.25 0.06 rg /F2 10 Tf 40 413 Td (COMPÉTENCES) Tj ET
+BT 0.07 0.07 0.06 rg /F2 9.5 Tf 40 397 Td (Réseaux) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 397 Td (Routage IP \(OSPF, BGP, statique\), Commutation & VLAN \(802.1Q, STP\), VPN IPsec &) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 385 Td (OpenVPN, MPLS \(maquettes L3VPN\), Cisco IOS & Packet Tracer / GNS3, pfSense /) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 373 Td (OPNsense, Wi-Fi d'entreprise & câblage structuré) Tj ET
+BT 0.07 0.07 0.06 rg /F2 9.5 Tf 40 357 Td (Systèmes & sécurité) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 357 Td (Linux \(Debian, Ubuntu, Rocky\), Windows Server & Active Directory, Virtualisation) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 345 Td (\(Proxmox, VirtualBox\), Docker & Docker Compose, Supervision \(Zabbix, Grafana\),) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 333 Td (Durcissement & pare-feu \(UFW, iptables\), Scripts Bash & PowerShell, Sauvegarde & PRA) Tj ET
+BT 0.07 0.07 0.06 rg /F2 9.5 Tf 40 317 Td (Full-stack) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 317 Td (TypeScript & JavaScript, React & Next.js, Python & Django, PHP & Laravel, PostgreSQL) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 305 Td (& MySQL, API REST & authentification, Git & CI/CD) Tj ET
+BT 0.07 0.07 0.06 rg /F2 9.5 Tf 40 289 Td (Design) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 289 Td (Figma \(UI, prototypage\), Identité visuelle & logotypes, Design systems & tokens,) Tj ET
+BT 0.31 0.30 0.28 rg /F1 9 Tf 150 277 Td (Adobe Illustrator & Photoshop) Tj ET
+BT 0.70 0.25 0.06 rg /F2 10 Tf 40 253 Td (PROJETS) Tj ET
+BT 0.42 0.41 0.38 rg /F1 9 Tf 40 237 Td (2026) Tj ET
+BT 0.07 0.07 0.06 rg /F2 10 Tf 150 237 Td (Interconnexion de trois sites par VPN IPsec et maquette MPLS) Tj ET
+BT 0.42 0.41 0.38 rg /F1 8.5 Tf 150 224 Td (pfSense, IPsec IKEv2, OSPF, VLAN 802.1Q, GNS3, MPLS L3VPN, MP-BGP) Tj ET
+BT 0.42 0.41 0.38 rg /F1 9 Tf 40 208 Td (2025) Tj ET
+BT 0.07 0.07 0.06 rg /F2 10 Tf 150 208 Td (Supervision d'une infrastructure avec Zabbix et Grafana) Tj ET
+BT 0.42 0.41 0.38 rg /F1 8.5 Tf 150 195 Td (Zabbix 7, Grafana, PostgreSQL, Docker Compose, SNMPv3, Proxmox, Linux) Tj ET
+BT 0.42 0.41 0.38 rg /F1 9 Tf 40 179 Td (2025) Tj ET
+BT 0.07 0.07 0.06 rg /F2 10 Tf 150 179 Td (Plateforme web de gestion des stages) Tj ET
+BT 0.42 0.41 0.38 rg /F1 8.5 Tf 150 166 Td (Python, Django, MySQL, Nginx, Gunicorn, Bootstrap, Linux) Tj ET
+BT 0.42 0.41 0.38 rg /F1 9 Tf 40 150 Td (2026) Tj ET
+BT 0.07 0.07 0.06 rg /F2 10 Tf 150 150 Td (" Signal " : identité visuelle et design system de ce portfolio) Tj ET
+BT 0.42 0.41 0.38 rg /F1 8.5 Tf 150 137 Td (Figma, Design tokens, Tailwind CSS, SVG, Next.js) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Title (CV - Patrick Melaga) /Producer (generate-example-cv) >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000354 00000 n 
+0000000456 00000 n 
+0000005816 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R /Info 7 0 R >>
+startxref
+5898
+%%EOF

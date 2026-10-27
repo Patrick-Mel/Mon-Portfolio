@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "skipLink": "Skip to main content",
+    "mainNav": "Main navigation",
+    "footerNav": "Footer navigation",
+    "breadcrumb": "Breadcrumb",
+    "home": "Home"
+  },
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "services": "Services",
+    "projects": "Projects",
+    "blog": "Blog",
+    "journey": "Journey",
+    "contact": "Contact",
+    "quote": "Quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "switchTo": "Switch to {language}"
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "English"
+  },
+  "theme": {
+    "label": "Theme",
+    "toLight": "Switch to light theme",
+    "toDark": "Switch to dark theme"
+  },
+  "common": {
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "back": "Back",
+    "example": "Example",
+    "minRead": "{count} min read",
+    "publishedOn": "Published on {date}",
+    "updatedOn": "Updated on {date}",
+    "loading": "Loading…",
+    "empty": "Nothing to show yet.",
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {current} of {total}",
+    "pagination": "Pagination",
+    "search": "Search",
+    "all": "All",
+    "close": "Close",
+    "copyLink": "Copy link",
+    "copied": "Link copied",
+    "share": "Share",
+    "downloadCv": "Download my résumé",
+    "cvUnavailable": "Résumé coming soon",
+    "requestQuote": "Request a quote",
+    "contactMe": "Get in touch",
+    "seeProjects": "See my projects",
+    "external": "(opens in a new tab)",
+    "results": "{count, plural, =0 {No results} one {# result} other {# results}}",
+    "resetFilters": "Reset filters"
+  },
+  "home": {
+    "metaTitle": "Home",
+    "hero": {
+      "status": "Available",
+      "greeting": "Hi, I'm",
+      "diagramLabel": "Decorative animated network topology diagram",
+      "scroll": "Scroll"
+    },
+    "about": {
+      "layer": "L1 · About",
+      "title": "From cable to interface, one standard.",
+      "school": "Education",
+      "location": "Based in",
+      "more": "My full journey"
+    },
+    "services": {
+      "layer": "L2 · Services",
+      "title": "What I can do for you",
+      "intro": "Clear engagements, with concrete deliverables and documentation you keep.",
+      "all": "All services"
+    },
+    "projects": {
+      "layer": "L3 · Projects",
+      "title": "Case studies",
+      "intro": "Projects written up like engineering files: context, problem, solution, results.",
+      "all": "All projects"
+    },
+    "skills": {
+      "layer": "L4 · Skills",
+      "title": "A stack that covers the whole chain",
+      "all": "All skills"
+    },
+    "blog": {
+      "layer": "L5 · Journal",
+      "title": "Latest articles",
+      "all": "All articles"
+    },
+    "cta": {
+      "layer": "L7 · Application",
+      "title": "A project, a role, a question?",
+      "text": "Recruiters and clients alike: write to me, I reply within two business days.",
+      "quote": "Request a quote",
+      "contact": "Send a message"
+    }
+  },
+  "skills": {
+    "metaTitle": "Skills",
+    "metaDescription": "Skills in networking, systems and security, full-stack development and design.",
+    "layer": "Inventory",
+    "title": "Skills",
+    "intro": "Four fields that work together: I design the infrastructure, run it, build the applications on top of it and care for the experience of the people who use them.",
+    "legend": "Level legend",
+    "featured": "Key skill",
+    "count": "{count, plural, one {# skill} other {# skills}}",
+    "categories": {
+      "network": "Networking",
+      "systems": "Systems & security",
+      "fullstack": "Full-stack development",
+      "design": "Design"
+    },
+    "categoryIntro": {
+      "network": "Designing, segmenting and interconnecting reliable networks.",
+      "systems": "Installing, hardening, monitoring and automating servers.",
+      "fullstack": "Building fast, secure and maintainable web applications.",
+      "design": "Crafting clear identities and pleasant interfaces."
+    },
+    "levels": {
+      "learning": "Growing",
+      "proficient": "Proficient",
+      "advanced": "Advanced"
+    },
+    "levelHint": {
+      "learning": "Used in projects, still deepening",
+      "proficient": "Independent on everyday tasks",
+      "advanced": "Independent on full projects, able to explain and teach"
+    }
+  },
+  "services": {
+    "metaTitle": "Services",
+    "metaDescription": "Enterprise networks, server administration, security and monitoring, web development and design: clear services for SMEs and individuals.",
+    "layer": "Offers",
+    "title": "Services",
+    "intro": "For SMEs, non-profits and individuals: a single point of contact for your infrastructure, your applications and your image.",
+    "benefits": "What you gain",
+    "deliverables": "Deliverables",
+    "process": "How it works",
+    "step": "Step {n}",
+    "ctaTitle": "A need that doesn't fit any box?",
+    "ctaText": "Describe it in plain words: I'll suggest an approach and a detailed quote.",
+    "jump": "Jump to service"
+  },
+  "projects": {
+    "metaTitle": "Projects",
+    "metaDescription": "Case studies in networking, systems, full-stack development and design.",
+    "layer": "Archive",
+    "title": "Projects",
+    "intro": "Each project is documented like an engineering file: the context, the problem, the chosen solution and what I learned.",
+    "searchPlaceholder": "Search a project, a technology…",
+    "filterLabel": "Filter by category",
+    "sortLabel": "Sort",
+    "sort": {
+      "featured": "Featured",
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "title": "Title (A → Z)"
+    },
+    "noResults": "No project matches your search.",
+    "categories": {
+      "network": "Networking",
+      "systems": "Systems",
+      "development": "Development",
+      "design": "Design"
+    },
+    "case": {
+      "context": "Context",
+      "problem": "Problem",
+      "solution": "Solution",
+      "results": "Results",
+      "learnings": "What I learned",
+      "role": "Role",
+      "year": "Year",
+      "duration": "Duration",
+      "category": "Field",
+      "stack": "Tech stack",
+      "diagrams": "Diagrams",
+      "gallery": "Gallery",
+      "links": "Links",
+      "github": "Source code",
+      "demo": "Live demo",
+      "previous": "Previous project",
+      "next": "Next project",
+      "zoom": "Enlarge diagram",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "zoomReset": "Reset zoom",
+      "figure": "Fig. {n}",
+      "onThisPage": "On this page",
+      "placeholderCover": "Project visual coming soon"
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDescription": "Technical articles on networking, system administration, security and web development.",
+    "layer": "Journal",
+    "title": "Blog",
+    "intro": "Field notes: what I learn while configuring, deploying and building.",
+    "searchPlaceholder": "Search articles…",
+    "categories": "Categories",
+    "tags": "Tags",
+    "allCategories": "All",
+    "categoryTitle": "Category: {name}",
+    "tagTitle": "Tag: {name}",
+    "noResults": "No article matches.",
+    "empty": "No articles published yet.",
+    "toc": "Contents",
+    "share": "Share this article",
+    "shareOn": "Share on {network}",
+    "related": "Read next",
+    "backToBlog": "All articles",
+    "rss": "RSS feed",
+    "comments": {
+      "title": "Comments",
+      "count": "{count, plural, =0 {No comments} one {# comment} other {# comments}}",
+      "empty": "Be the first to comment.",
+      "formTitle": "Leave a comment",
+      "moderation": "Comments are reviewed before publication. Your email is never displayed.",
+      "name": "Name",
+      "email": "Email",
+      "content": "Comment",
+      "submit": "Post comment",
+      "success": "Thank you! Your comment will appear after moderation.",
+      "disabled": "Comments are closed."
+    }
+  },
+  "newsletter": {
+    "title": "Get the next articles",
+    "text": "One email when a new article is out. No spam, one-click unsubscribe.",
+    "submit": "Subscribe",
+    "success": "Almost done: confirm your subscription with the link sent by email.",
+    "status": {
+      "confirmed": {
+        "title": "Subscription confirmed",
+        "text": "Thank you! You'll get an email for every new article."
+      },
+      "unsubscribed": {
+        "title": "You're unsubscribed",
+        "text": "You won't receive any more emails. You can subscribe again at any time."
+      },
+      "invalid": {
+        "title": "Invalid or expired link",
+        "text": "This link is no longer valid. Subscribe again to get a new one."
+      }
+    },
+    "backHome": "Back to home",
+    "mail": {
+      "confirmSubject": "Confirm your subscription — {name}",
+      "confirmIntro": "Thanks for your interest! Click the button below to confirm your newsletter subscription.",
+      "confirmButton": "Confirm my subscription",
+      "ignore": "If you didn't request this, simply ignore this email.",
+      "unsubscribe": "Unsubscribe in one click",
+      "newPost": "New article",
+      "read": "Read the article"
+    },
+    "email": "Your email address"
+  },
+  "contact": {
+    "metaTitle": "Contact",
+    "metaDescription": "Write to me about a job offer, an internship or a freelance project.",
+    "layer": "Link",
+    "title": "Let's talk",
+    "intro": "A job offer, an internship, a project or just a question: I reply within two business days.",
+    "channels": "Other ways to reach me",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "location": "Location",
+    "socials": "Social",
+    "quoteTeaser": "Have a specific project?",
+    "quoteTeaserText": "The quote form lets me reply with a priced estimate.",
+    "form": {
+      "title": "Contact form",
+      "name": "Full name",
+      "email": "Email address",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "success": "Message sent. Thank you! I'll get back to you soon.",
+      "successTitle": "It's on its way"
+    }
+  },
+  "quote": {
+    "metaTitle": "Request a quote",
+    "metaDescription": "Describe your network, systems, web or design project and get a detailed quote.",
+    "layer": "Quote",
+    "title": "Request a quote",
+    "intro": "The more precise your description, the more accurate my estimate. Fields marked with an asterisk are required.",
+    "steps": {
+      "project": "Your project",
+      "details": "Budget and timeline",
+      "contact": "Your details"
+    },
+    "form": {
+      "service": "Type of service",
+      "servicePlaceholder": "Choose a service",
+      "other": "Other / not sure yet",
+      "description": "Describe what you need",
+      "descriptionHint": "Context, goals, constraints, existing setup…",
+      "budget": "Estimated budget",
+      "timeline": "Desired timeline",
+      "attachments": "Attachments (optional)",
+      "attachmentsHint": "PDF, images, Office documents or TXT — up to 3 files, 5 MB each.",
+      "removeFile": "Remove {name}",
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone / WhatsApp",
+      "company": "Company or organization",
+      "submit": "Send request",
+      "success": "Request received. I'll come back to you with a proposal within three business days.",
+      "successTitle": "Request sent",
+      "optional": "optional"
+    },
+    "budgets": {
+      "lt150k": "Under 150,000 FCFA",
+      "150k-500k": "150,000 – 500,000 FCFA",
+      "500k-1500k": "500,000 – 1,500,000 FCFA",
+      "gt1500k": "Over 1,500,000 FCFA",
+      "unknown": "To be defined together"
+    },
+    "timelines": {
+      "urgent": "Urgent (under 2 weeks)",
+      "1month": "Within a month",
+      "3months": "Within 3 months",
+      "flexible": "Flexible"
+    }
+  },
+  "journey": {
+    "metaTitle": "Journey",
+    "metaDescription": "Education at IAI Cameroon (DTS, professional bachelor's degree, computer engineering technologist) and experience.",
+    "layer": "History",
+    "title": "Journey",
+    "intro": "Three years at IAI Cameroon, from the fundamentals to the computer engineering technologist degree, Systems and Networks track.",
+    "education": "Education",
+    "experience": "Experience",
+    "present": "present",
+    "cvTitle": "The full résumé",
+    "cvText": "All of this as a PDF, in French or English.",
+    "cvFr": "Résumé in French (PDF)",
+    "cvEn": "Résumé in English (PDF)"
+  },
+  "legal": {
+    "layer": "Legal",
+    "lastUpdated": "Last updated: {date}"
+  },
+  "footer": {
+    "tagline": "Infrastructure and design, with the same rigor.",
+    "explore": "Explore",
+    "work": "Work together",
+    "connect": "Follow",
+    "rights": "© {year} {name}. All rights reserved.",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy",
+    "rss": "RSS feed",
+    "backToTop": "Back to top",
+    "noCookies": "This site uses no tracking cookies."
+  },
+  "forms": {
+    "required": "required",
+    "sending": "Sending…",
+    "honeypot": "Leave this field empty",
+    "sendAnother": "Send another message",
+    "privacyNote": "Your data is only used to reply to you. See the privacy policy.",
+    "turnstile": "Bot check"
+  },
+  "validation": {
+    "required": "This field is required.",
+    "email": "Invalid email address.",
+    "tooShort": "Too short ({min} characters minimum).",
+    "tooLong": "Too long ({max} characters maximum).",
+    "invalid": "Invalid value.",
+    "fileTooLarge": "File too large (5 MB maximum).",
+    "fileType": "File type not accepted.",
+    "tooManyFiles": "3 files maximum."
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again in a moment.",
+    "network": "Unable to connect. Check your network and try again.",
+    "rateLimited": "Too many attempts. Please wait a few minutes before trying again.",
+    "spam": "Your submission was blocked by spam protection.",
+    "captcha": "The bot check failed. Please try again.",
+    "unavailable": "This service isn't configured yet. Please email me directly.",
+    "validation": "Some fields need fixing."
+  },
+  "notFound": {
+    "code": "404 · Host unreachable",
+    "title": "This page doesn't exist",
+    "text": "The link may be outdated, or the address may contain a typo. Here are a few routes that work:",
+    "home": "Back to home",
+    "projects": "See projects",
+    "contact": "Contact me"
+  },
+  "error": {
+    "code": "500 · Internal error",
+    "title": "Something went wrong",
+    "text": "In most cases the issue is temporary. Try again, or go back to the home page.",
+    "retry": "Try again",
+    "home": "Back to home"
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "skipLink": "Aller au contenu principal",
+    "mainNav": "Navigation principale",
+    "footerNav": "Navigation du pied de page",
+    "breadcrumb": "Fil d'Ariane",
+    "home": "Accueil"
+  },
+  "nav": {
+    "home": "Accueil",
+    "skills": "Compétences",
+    "services": "Services",
+    "projects": "Projets",
+    "blog": "Blog",
+    "journey": "Parcours",
+    "contact": "Contact",
+    "quote": "Devis",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Langue",
+    "switchTo": "Passer en {language}"
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "English"
+  },
+  "theme": {
+    "label": "Thème",
+    "toLight": "Activer le thème clair",
+    "toDark": "Activer le thème sombre"
+  },
+  "common": {
+    "readMore": "Lire la suite",
+    "viewAll": "Tout voir",
+    "back": "Retour",
+    "example": "Exemple",
+    "minRead": "{count} min de lecture",
+    "publishedOn": "Publié le {date}",
+    "updatedOn": "Mis à jour le {date}",
+    "loading": "Chargement…",
+    "empty": "Rien à afficher pour le moment.",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "pageOf": "Page {current} sur {total}",
+    "pagination": "Pagination",
+    "search": "Rechercher",
+    "all": "Tout",
+    "close": "Fermer",
+    "copyLink": "Copier le lien",
+    "copied": "Lien copié",
+    "share": "Partager",
+    "downloadCv": "Télécharger mon CV",
+    "cvUnavailable": "CV bientôt disponible",
+    "requestQuote": "Demander un devis",
+    "contactMe": "Me contacter",
+    "seeProjects": "Voir mes projets",
+    "external": "(s'ouvre dans un nouvel onglet)",
+    "results": "{count, plural, =0 {Aucun résultat} one {# résultat} other {# résultats}}",
+    "resetFilters": "Réinitialiser les filtres"
+  },
+  "home": {
+    "metaTitle": "Accueil",
+    "hero": {
+      "status": "Disponible",
+      "greeting": "Bonjour, je suis",
+      "diagramLabel": "Schéma décoratif d'une topologie réseau animée",
+      "scroll": "Défiler"
+    },
+    "about": {
+      "layer": "L1 · Présentation",
+      "title": "Du câble à l'interface, une seule exigence.",
+      "school": "Formation",
+      "location": "Basé à",
+      "more": "Mon parcours complet"
+    },
+    "services": {
+      "layer": "L2 · Services",
+      "title": "Ce que je peux faire pour vous",
+      "intro": "Des missions claires, avec des livrables concrets et une documentation que vous gardez.",
+      "all": "Tous les services"
+    },
+    "projects": {
+      "layer": "L3 · Projets",
+      "title": "Études de cas",
+      "intro": "Des projets présentés comme des dossiers d'ingénierie : contexte, problème, solution, résultats.",
+      "all": "Tous les projets"
+    },
+    "skills": {
+      "layer": "L4 · Compétences",
+      "title": "Une pile qui couvre toute la chaîne",
+      "all": "Toutes les compétences"
+    },
+    "blog": {
+      "layer": "L5 · Journal",
+      "title": "Derniers articles",
+      "all": "Tous les articles"
+    },
+    "cta": {
+      "layer": "L7 · Application",
+      "title": "Un projet, un poste, une question ?",
+      "text": "Recruteurs comme clients : écrivez-moi, je réponds sous 48 heures ouvrées.",
+      "quote": "Demander un devis",
+      "contact": "Écrire un message"
+    }
+  },
+  "skills": {
+    "metaTitle": "Compétences",
+    "metaDescription": "Compétences en réseaux, systèmes et sécurité, développement full-stack et design.",
+    "layer": "Inventaire",
+    "title": "Compétences",
+    "intro": "Quatre domaines qui se répondent : je conçois l'infrastructure, je l'exploite, je construis les applications qui tournent dessus et je soigne l'expérience de ceux qui les utilisent.",
+    "legend": "Légende des niveaux",
+    "featured": "Compétence clé",
+    "count": "{count, plural, one {# compétence} other {# compétences}}",
+    "categories": {
+      "network": "Réseaux",
+      "systems": "Systèmes & sécurité",
+      "fullstack": "Développement full-stack",
+      "design": "Design"
+    },
+    "categoryIntro": {
+      "network": "Concevoir, segmenter et interconnecter des réseaux fiables.",
+      "systems": "Installer, durcir, superviser et automatiser des serveurs.",
+      "fullstack": "Construire des applications web rapides, sûres et maintenables.",
+      "design": "Donner une identité claire et des interfaces agréables."
+    },
+    "levels": {
+      "learning": "En progression",
+      "proficient": "Opérationnel",
+      "advanced": "Avancé"
+    },
+    "levelHint": {
+      "learning": "Utilisé en projet, encore en approfondissement",
+      "proficient": "Autonome sur des tâches courantes",
+      "advanced": "Autonome sur des projets complets, capable d'expliquer et de former"
+    }
+  },
+  "services": {
+    "metaTitle": "Services",
+    "metaDescription": "Réseaux d'entreprise, administration de serveurs, sécurité et supervision, développement web et design : des prestations claires pour PME et particuliers.",
+    "layer": "Offres",
+    "title": "Services",
+    "intro": "Pour les PME, associations et particuliers : un interlocuteur unique pour votre infrastructure, vos applications et votre image.",
+    "benefits": "Ce que vous y gagnez",
+    "deliverables": "Livrables",
+    "process": "Déroulement",
+    "step": "Étape {n}",
+    "ctaTitle": "Un besoin qui ne rentre dans aucune case ?",
+    "ctaText": "Décrivez-le simplement : je vous proposerai une approche et un devis détaillé.",
+    "jump": "Aller au service"
+  },
+  "projects": {
+    "metaTitle": "Projets",
+    "metaDescription": "Études de cas en réseaux, systèmes, développement full-stack et design.",
+    "layer": "Archives",
+    "title": "Projets",
+    "intro": "Chaque projet est documenté comme un dossier d'ingénierie : le contexte, le problème, la solution retenue et ce que j'en ai appris.",
+    "searchPlaceholder": "Rechercher un projet, une technologie…",
+    "filterLabel": "Filtrer par catégorie",
+    "sortLabel": "Trier",
+    "sort": {
+      "featured": "Mis en avant",
+      "newest": "Plus récents",
+      "oldest": "Plus anciens",
+      "title": "Titre (A → Z)"
+    },
+    "noResults": "Aucun projet ne correspond à votre recherche.",
+    "categories": {
+      "network": "Réseaux",
+      "systems": "Systèmes",
+      "development": "Développement",
+      "design": "Design"
+    },
+    "case": {
+      "context": "Contexte",
+      "problem": "Problème",
+      "solution": "Solution",
+      "results": "Résultats",
+      "learnings": "Ce que j'ai appris",
+      "role": "Rôle",
+      "year": "Année",
+      "duration": "Durée",
+      "category": "Domaine",
+      "stack": "Stack technique",
+      "diagrams": "Schémas",
+      "gallery": "Galerie",
+      "links": "Liens",
+      "github": "Code source",
+      "demo": "Démo en ligne",
+      "previous": "Projet précédent",
+      "next": "Projet suivant",
+      "zoom": "Agrandir le schéma",
+      "zoomIn": "Zoomer",
+      "zoomOut": "Dézoomer",
+      "zoomReset": "Réinitialiser le zoom",
+      "figure": "Fig. {n}",
+      "onThisPage": "Sur cette page",
+      "placeholderCover": "Visuel du projet à venir"
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDescription": "Articles techniques sur les réseaux, l'administration système, la sécurité et le développement web.",
+    "layer": "Journal",
+    "title": "Blog",
+    "intro": "Notes de terrain : ce que j'apprends en configurant, en déployant et en construisant.",
+    "searchPlaceholder": "Rechercher un article…",
+    "categories": "Catégories",
+    "tags": "Tags",
+    "allCategories": "Toutes",
+    "categoryTitle": "Catégorie : {name}",
+    "tagTitle": "Tag : {name}",
+    "noResults": "Aucun article ne correspond.",
+    "empty": "Aucun article publié pour le moment.",
+    "toc": "Sommaire",
+    "share": "Partager cet article",
+    "shareOn": "Partager sur {network}",
+    "related": "À lire aussi",
+    "backToBlog": "Tous les articles",
+    "rss": "Flux RSS",
+    "comments": {
+      "title": "Commentaires",
+      "count": "{count, plural, =0 {Aucun commentaire} one {# commentaire} other {# commentaires}}",
+      "empty": "Soyez le premier à commenter.",
+      "formTitle": "Laisser un commentaire",
+      "moderation": "Les commentaires sont relus avant publication. Votre e-mail n'est jamais affiché.",
+      "name": "Nom",
+      "email": "E-mail",
+      "content": "Commentaire",
+      "submit": "Envoyer le commentaire",
+      "success": "Merci ! Votre commentaire sera visible après modération.",
+      "disabled": "Les commentaires sont fermés."
+    }
+  },
+  "newsletter": {
+    "title": "Recevoir les prochains articles",
+    "text": "Un e-mail quand un nouvel article paraît. Pas de spam, désinscription en un clic.",
+    "submit": "S'inscrire",
+    "success": "Presque terminé : confirmez votre inscription grâce au lien envoyé par e-mail.",
+    "status": {
+      "confirmed": {
+        "title": "Inscription confirmée",
+        "text": "Merci ! Vous recevrez un e-mail à chaque nouvel article."
+      },
+      "unsubscribed": {
+        "title": "Désinscription effectuée",
+        "text": "Vous ne recevrez plus d'e-mails. Vous pouvez vous réinscrire à tout moment."
+      },
+      "invalid": {
+        "title": "Lien invalide ou expiré",
+        "text": "Ce lien n'est plus valable. Réinscrivez-vous pour recevoir un nouveau lien."
+      }
+    },
+    "backHome": "Retour à l'accueil",
+    "mail": {
+      "confirmSubject": "Confirmez votre inscription — {name}",
+      "confirmIntro": "Merci de votre intérêt ! Cliquez sur le bouton ci-dessous pour confirmer votre inscription à la newsletter.",
+      "confirmButton": "Confirmer mon inscription",
+      "ignore": "Si vous n'êtes pas à l'origine de cette demande, ignorez simplement cet e-mail.",
+      "unsubscribe": "Se désinscrire en un clic",
+      "newPost": "Nouvel article",
+      "read": "Lire l'article"
+    },
+    "email": "Votre adresse e-mail"
+  },
+  "contact": {
+    "metaTitle": "Contact",
+    "metaDescription": "Écrivez-moi pour une offre d'emploi, un stage ou un projet freelance.",
+    "layer": "Liaison",
+    "title": "Parlons-en",
+    "intro": "Une offre d'emploi, un stage, une mission ou une simple question : je réponds sous 48 heures ouvrées.",
+    "channels": "Autres moyens de me joindre",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "whatsapp": "WhatsApp",
+    "location": "Localisation",
+    "socials": "Réseaux",
+    "quoteTeaser": "Vous avez un projet précis ?",
+    "quoteTeaserText": "Le formulaire de devis me permet de vous répondre avec une estimation chiffrée.",
+    "form": {
+      "title": "Formulaire de contact",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "subject": "Sujet",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "success": "Message envoyé. Merci ! Je vous réponds rapidement.",
+      "successTitle": "C'est envoyé"
+    }
+  },
+  "quote": {
+    "metaTitle": "Demander un devis",
+    "metaDescription": "Décrivez votre projet réseau, système, web ou design et recevez un devis détaillé.",
+    "layer": "Devis",
+    "title": "Demander un devis",
+    "intro": "Plus votre description est précise, plus mon estimation le sera. Tous les champs marqués d'un astérisque sont obligatoires.",
+    "steps": {
+      "project": "Votre projet",
+      "details": "Budget et délai",
+      "contact": "Vos coordonnées"
+    },
+    "form": {
+      "service": "Type de prestation",
+      "servicePlaceholder": "Choisir une prestation",
+      "other": "Autre / je ne sais pas encore",
+      "description": "Décrivez votre besoin",
+      "descriptionHint": "Contexte, objectifs, contraintes, existant…",
+      "budget": "Budget estimé",
+      "timeline": "Délai souhaité",
+      "attachments": "Pièces jointes (facultatif)",
+      "attachmentsHint": "PDF, images, documents Office ou TXT — 3 fichiers, 5 Mo chacun au maximum.",
+      "removeFile": "Retirer {name}",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Téléphone / WhatsApp",
+      "company": "Entreprise ou organisation",
+      "submit": "Envoyer la demande",
+      "success": "Demande reçue. Je reviens vers vous avec une proposition sous 72 heures ouvrées.",
+      "successTitle": "Demande envoyée",
+      "optional": "facultatif"
+    },
+    "budgets": {
+      "lt150k": "Moins de 150 000 FCFA",
+      "150k-500k": "150 000 – 500 000 FCFA",
+      "500k-1500k": "500 000 – 1 500 000 FCFA",
+      "gt1500k": "Plus de 1 500 000 FCFA",
+      "unknown": "À définir ensemble"
+    },
+    "timelines": {
+      "urgent": "Urgent (moins de 2 semaines)",
+      "1month": "Dans le mois",
+      "3months": "Dans les 3 mois",
+      "flexible": "Flexible"
+    }
+  },
+  "journey": {
+    "metaTitle": "Parcours",
+    "metaDescription": "Formation à l'IAI Cameroun (DTS, licence professionnelle, ingénieur des travaux informatiques) et expériences.",
+    "layer": "Historique",
+    "title": "Parcours",
+    "intro": "Trois années à l'IAI Cameroun, de la base au diplôme d'ingénieur des travaux informatiques option Systèmes et Réseaux.",
+    "education": "Formation",
+    "experience": "Expérience",
+    "present": "aujourd'hui",
+    "cvTitle": "Le CV complet",
+    "cvText": "Toutes ces informations au format PDF, en français ou en anglais.",
+    "cvFr": "CV en français (PDF)",
+    "cvEn": "CV en anglais (PDF)"
+  },
+  "legal": {
+    "layer": "Cadre légal",
+    "lastUpdated": "Dernière mise à jour : {date}"
+  },
+  "footer": {
+    "tagline": "Infrastructure et design, avec la même rigueur.",
+    "explore": "Explorer",
+    "work": "Travailler ensemble",
+    "connect": "Me suivre",
+    "rights": "© {year} {name}. Tous droits réservés.",
+    "legalNotice": "Mentions légales",
+    "privacy": "Confidentialité",
+    "rss": "Flux RSS",
+    "backToTop": "Haut de page",
+    "noCookies": "Ce site n'utilise aucun cookie de traçage."
+  },
+  "forms": {
+    "required": "obligatoire",
+    "sending": "Envoi en cours…",
+    "honeypot": "Ne pas remplir ce champ",
+    "sendAnother": "Envoyer un autre message",
+    "privacyNote": "Vos données servent uniquement à vous répondre. Voir la politique de confidentialité.",
+    "turnstile": "Vérification anti-robot"
+  },
+  "validation": {
+    "required": "Ce champ est obligatoire.",
+    "email": "Adresse e-mail invalide.",
+    "tooShort": "Trop court ({min} caractères minimum).",
+    "tooLong": "Trop long ({max} caractères maximum).",
+    "invalid": "Valeur invalide.",
+    "fileTooLarge": "Fichier trop volumineux (5 Mo maximum).",
+    "fileType": "Type de fichier non accepté.",
+    "tooManyFiles": "3 fichiers maximum."
+  },
+  "errors": {
+    "generic": "Une erreur est survenue. Réessayez dans un instant.",
+    "network": "Connexion impossible. Vérifiez votre réseau puis réessayez.",
+    "rateLimited": "Trop de tentatives. Patientez quelques minutes avant de réessayer.",
+    "spam": "Votre envoi a été bloqué par la protection anti-spam.",
+    "captcha": "La vérification anti-robot a échoué. Réessayez.",
+    "unavailable": "Ce service n'est pas encore configuré. Écrivez-moi directement par e-mail.",
+    "validation": "Certains champs sont à corriger."
+  },
+  "notFound": {
+    "code": "404 · Hôte injoignable",
+    "title": "Cette page n'existe pas",
+    "text": "Le lien est peut-être ancien, ou l'adresse contient une faute de frappe. Voici quelques routes qui fonctionnent :",
+    "home": "Retour à l'accueil",
+    "projects": "Voir les projets",
+    "contact": "Me contacter"
+  },
+  "error": {
+    "code": "500 · Erreur interne",
+    "title": "Quelque chose s'est mal passé",
+    "text": "L'incident est passager dans la plupart des cas. Réessayez, ou revenez à l'accueil.",
+    "retry": "Réessayer",
+    "home": "Retour à l'accueil"
+  }
+}
